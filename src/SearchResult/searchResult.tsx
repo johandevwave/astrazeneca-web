@@ -16,7 +16,7 @@ const SearchResult: React.FunctionComponent<ISearchResult> = ({
   if (isLoading) {
     return <Loading />
   }
-  if (!isLoading && isSuccess && data.length > 0) {
+  if (!isLoading && isSuccess) {
     return (
       <div
         role={'list'}
@@ -52,7 +52,7 @@ const SearchResult: React.FunctionComponent<ISearchResult> = ({
                       .replace(/(<([^>]+)>)/gi, '')
                       .substring(0, 100)
                   ) : (
-                    <i>Could not find an summary..</i>
+                    <i>Could not find a summary.</i>
                   )}
                   ...
                 </p>

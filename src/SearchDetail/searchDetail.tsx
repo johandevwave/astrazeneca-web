@@ -40,7 +40,7 @@ const SearchDetail: React.FunctionComponent = () => {
                 {data.summary ? (
                   data.summary.replace(/(<([^>]+)>)/gi, '')
                 ) : (
-                  <i>Could not find an summary..</i>
+                  <i>Could not find a summary.</i>
                 )}
               </p>
               <div className="mt-5 flex">

@@ -31,7 +31,7 @@ export interface RouteData {
 
 const ROUTES = {
   start: {
-    displayName: 'App',
+    displayName: 'Search',
     path: '/',
     component: lazy(() => import('../Search')),
     public: true,
