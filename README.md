@@ -47,6 +47,9 @@ MSW is used to mock API calls in unit tests in version 1.2.1.
 
 In the project directory, you can run:
 
+### `npm install`
+You first need to install the dependencies to run this app. 
+
 ### `npm start`
 
 Runs the app in the development mode.\
