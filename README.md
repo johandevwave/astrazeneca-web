@@ -40,8 +40,8 @@ Ramda is a library for functional programming in JavaScript. It is used here in 
 Sass is a CSS preprocessor used to increase efficiency when writing CSS code. It is used here in version 1.60.0.
 Tailwindcss is also used to write CSS code and add pre-defined classes in version 3.3.1.
 
-### Web Vitals
-Other Dependencies
+### Other Dependencies
+
 MSW is used to mock API calls in unit tests in version 1.2.1. 
 ## Available Scripts
 
